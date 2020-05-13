@@ -3,14 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HighlightDirective } from './highlight.directive';
-import { MyPipePipe } from './my-pipe.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HighlightDirective,
-    MyPipePipe
+    AppComponent
   ],
   imports: [
     BrowserModule,
